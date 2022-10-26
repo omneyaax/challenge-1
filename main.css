@@ -1,0 +1,293 @@
+.home nav {
+    width: 100%;
+    background-color: #fff;
+
+}
+
+.home button {
+    border-width: 0px;
+}
+
+
+.home nav .navlist ul {
+    /* display: flex;
+    justify-content: flex-end; */
+    padding: 20px;
+
+}
+
+.home .hscreen .desc1 {
+
+    height: fit-content;
+    margin: 10px;
+    margin-top: 120px;
+
+
+}
+
+.home .hscreen {
+    flex-wrap: wrap;
+}
+
+
+.home .hscreen .desc1 img {
+    width: 100%;
+    height: 50%;
+
+
+
+}
+
+.home .hscreen .desc1 .mobilee {
+    display: none;
+
+
+
+}
+
+.home .hscreen .desc1 h1 {
+    color: hsl(240, 100%, 5%);
+    font-weight: bolder;
+    font-size: 55px;
+    padding: 20px;
+    margin-right: 20px;
+
+}
+
+
+
+
+.home .hscreen .desc1 button {
+    background-color: hsl(5, 85%, 63%);
+    border-radius: 0;
+    width: 170px;
+    height: 45px;
+    font-size: 12px;
+    letter-spacing: 2px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+
+
+}
+
+.home .hscreen .desc1 p {
+
+    font-size: 15px;
+    color: hsl(236, 13%, 42%);
+    ;
+    padding: 40px;
+    padding-left: 0;
+    padding-top: 30px;
+    margin: 10px;
+    margin-right: 20px;
+    margin-left: 0;
+    margin-bottom: 10px;
+
+}
+
+.home .hscreen .desc2 {
+    background-color: hsl(240, 100%, 5%);
+    height: fit-content;
+    padding: 30px;
+    margin: 10px;
+    margin-top: 120px;
+}
+
+.home .news h1 {
+    color: hsl(35, 77%, 62%);
+    font-weight: 700;
+    margin-bottom: 50px;
+
+}
+
+.home .news h4 {
+    color: white;
+    font-weight: 700;
+    width: 100% !important;
+    white-space: nowrap;
+    font-size: 25px;
+    padding-left: 0px;
+}
+
+.home .news p {
+    color: hsl(233, 8%, 79%);
+    font-weight: 400;
+    font-size: 15px;
+
+}
+
+.home .news div {
+    margin: 0px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+}
+
+.home .news div {
+    border-top-color: hsl(240, 100%, 5%);
+    border-left-color: hsl(240, 100%, 5%);
+    border-right-color: hsl(240, 100%, 5%);
+    border-bottom-color: #fff;
+    margin-top: 2px;
+    border-style: solid;
+}
+
+.home .news .vc {
+    border-top-color: hsl(240, 100%, 5%);
+    border-left-color: hsl(240, 100%, 5%);
+    border-right-color: hsl(240, 100%, 5%);
+    border-bottom-color: hsl(240, 100%, 5%);
+    margin-top: 2px;
+    border-style: solid;
+}
+
+.home .items div {
+
+    padding: 40px;
+    padding-right: 15px;
+
+}
+
+.home .items{margin-right:0px !important;}
+
+.home .items img {
+    width: 100px;
+    height: 150px
+}
+
+.home .items h4 {
+    width: 100%;
+    color:hsl(233, 8%, 79%);
+    font-size: 40px;
+     
+}
+
+.home .items .item {
+
+    padding: 10px;
+    margin: 0px;
+   
+   
+}
+.home .items p {
+    width: 100%
+}
+
+
+.home .items h5{
+    width: 100%;
+    color:hsl(240, 100%, 5%);
+    font-size: 20px;
+     
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width:375px) {
+    .home .hscreen {
+
+        width: 95% !important
+    }
+
+    .home .hscreen .desc1 {
+        padding: 10px;
+        width: 100% !important
+    }
+
+    .home .hscreen .desc1 p {
+        /* margin: 0px !important;
+    padding: 0px!important; */
+        width: 100% !important;
+        padding-left: 10px;
+    }
+
+    .home .hscreen .desc1 .mobilee {
+        display: block;
+        width: 117%;
+        height: 300px;
+        margin-left: -15px;
+        padding-left: -15px;
+        ;
+
+    }
+
+    .home .hscreen .desc1 .desktopp {
+        display: none;
+
+
+    }
+
+    .home .hscreen .desc1 img {
+        height: 250px;
+        width: 300px;
+    }
+
+    .home .hscreen .desc1 .hh {
+
+        width: 90% !important
+    }
+
+    .home .hscreen .desc1 h1 {
+        margin: 5px !important;
+        padding: 10px !important;
+        width: 90% !important;
+        font-size: 40px;
+    }
+
+    .home .hscreen .desc1 button {
+        margin: auto;
+    }
+
+
+
+    .home .desc2 {
+        width: 95%;
+
+
+    }
+
+    .home .desc2 .news h4 {
+        font-size: 20px;
+    }
+
+    .home .desc2 .news h1 {
+        font-size: 40px !important;
+    }
+
+
+
+    .home .items  {
+
+       flex-wrap: wrap;
+       
+    }
+
+    
+
+    .home .items  h5{
+
+       white-space: nowrap;
+    }
+
+
+.home .items div{
+    padding-left: 0px;
+       margin-left: 0px
+}
+
+
+
+
+
+
+
+}
